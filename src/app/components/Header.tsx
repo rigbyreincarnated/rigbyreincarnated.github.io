@@ -1,11 +1,17 @@
 import Image from "next/image";
-import type { Contact } from "@/types/resume";
 
+type HeaderProps = {
+  name: string;
+  tagline: string;
+  headshot: string;
+};
 
-
-export default function Header() {
- 
+export default function Header({ name, tagline, headshot }: HeaderProps) {
   return (
-
+    <header>
+      <Image src={headshot} alt={name} width={150} height={150} />
+      <h1>{name}</h1>
+      <p>{tagline}</p>
+    </header>
   );
 }

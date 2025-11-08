@@ -2,13 +2,19 @@
 
 import Link from "next/link";
 
+type NavProps = {
+  context: "home" | "contact";
+  name: string;
+};
 
-
-/* pass a prop to indicate whether to render the link to Contact or About */
-export default function Nav() {
-
-
-    return (
-    
-    );
+export default function Nav({ context, name }: NavProps) {
+  return (
+    <nav>
+      {context === "home" ? (
+        <Link href="/contact">Contact {name}</Link>
+      ) : (
+        <Link href="/">About {name}</Link>
+      )}
+    </nav>
+  );
 }

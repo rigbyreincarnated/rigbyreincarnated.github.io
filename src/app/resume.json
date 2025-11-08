@@ -1,44 +1,76 @@
 {
-  "name": "Your name",
-  "tagline": "A tag line describing what you are interested in doing.",
-  "headshot": "images/headshot.jpg",
+  "name": "Ritvik Gaddam",
+  "tagline": "Bachelor's of Computer Science, University of Georgia",
+  "headshot": "/images/headshotfinal.jpg",
   "contact": {
-    "address": "123 Main St, City, ST 00000",
-    "phone": "(123) 456-7890",
-    "email": "your.email@example.com",
-    "linkedin": "https://www.linkedin.com/in/yourprofile"
+    "address": "Atlanta, GA",
+    "phone": "+1(470)560-9088",
+    "email": "ritvik.gaddam@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vik-gaddam"
   },
   "education": {
-    "school": "University Name",
-    "gpa": "4.0",
-    "degree": "Bachelor of Science",
-    "graduation_date": "May 2025"
+    "school": "University of Georgia",
+    "gpa": "N/A",
+    "degree": "Bachelor's of Computer Science",
+    "graduation_date": "Expected 2026"
   },
-  "honors_and_awards": [
-    { "honor": "Dean's List", "date": "2023" },
-    { "honor": "Scholarship Award", "date": "2022" }
+ "honors_and_awards": [
+    { "honor": "Environmental Leadership Award", "date": "2023" }
   ],
-  "skills": ["HTML", "Java", "JavaScript", "React"],
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "C/C++",
+    "HTML/CSS",
+    "Swift",
+    "Node.js",
+    "React.js",
+    "AWS",
+    "Flask",
+    "Pandas",
+    "Matplotlib",
+    "scikit-learn",
+    "XGBoost",
+    "TensorFlow",
+    "NFC",
+    "IoT",
+    "JUnit",
+    "Blender",
+    "MS Excel"
+  ],
   "leadership_and_experience": [
-    { "position": "Intern at Company", "date": "2023–Present", "link": "https://company.com" },
-    { "position": "Volunteer at Org", "date": "2022–2023" }
+    {
+      "position": "Developer Intern - Assets Edge",
+      "date": "May 2024-Aug 2024"
+    },
+    {
+      "position": "Software Engineering Intern - Muskurahat Foundation",
+      "date": "May 2023-Aug 2023"
+    },
+    {
+      "position": "Co-Founder & Vice President - Skills Central",
+      "date": "January 2022- May 2024"
+    }
   ],
   "projects": [
     {
-      "title": "Portfolio Website",
-      "image": "images/img_avatar.png",
-      "descr": ["Built with HTML/CSS", "Deployed on Netlify"]
+      "title": "Aortic Valve Disease Progression Predictor",
+      "image": "/images/cloudtaskmanager.png",
+      "descr": [
+        "Built a Python machine learning model using scikit-learn and pandas to predict aortic stenosis/regurgitation progression timelines based on clinical data from 50+ published studies, achieving 85% accuracy in severity classification.",
+        "Implemented gradient boosted trees (XGBoost) to analyze echocardiographic parameters and patient demographics, identifying key risk factors for disease progression and optimal surgical intervention timing.",
+        "Applied K-Means clustering to segment patients into risk categories and used neural networks (TensorFlow) to predict valve replacement type recommendations (mechanical vs. bioprosthetic vs. Ross procedure)."
+      ]
     },
     {
-      "title": "Todo App",
-      "image": "images/img_avatar.png",
-      "descr": ["Built in React", "Used localStorage"]
-    },
-    {
-      "title": "Resume Builder",
-      "image": "images/img_avatar.png",
-      "descr": ["JSON to HTML conversion", "Practice with DOM"]
+      "title": "Snoono - Sleep Aid App",
+      "image": "/images/snoonohtml.png",
+      "descr": [
+        "Developed an iOS application using Swift with integrated NFC technology and IoT device connectivity to create a comprehensive sleep and productivity solution that eliminates habits of snoozing.",
+        "Built app blocking features and integrated IoT devices (sunrise lamps, smart alarms) using Core NFC framework and HomeKit to improve user wake-up habits.",
+        "Designed a fail-safe system with password protection to ensure reliable functionality when NFC tags malfunction."
+      ]
     }
   ]
 }
-
