@@ -54,7 +54,7 @@ export default function ContactPage() {
           </form>
         </section>
       </main>
-      <Footer contact={contact} />
+      <Footer contact={contact} name={resume.name} />
     </>
   );
 }
